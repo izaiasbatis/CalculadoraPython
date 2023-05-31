@@ -1,15 +1,10 @@
 from tkinter import *
 from tkinter import ttk
 
-cor1 = "#1e1f1e"
-
+cor1 = '#1e1f1e'
 janela = Tk()
 janela.title("Calculadora")
-janela.geometry("235x318")
-frame_janela = Frame(janela, width=250 , height=250, bg= cor1)
-frame_janela.grid(row=0, column=0)
-
-
-
-
+janela.geometry("250x300")
+janela_frame = Frame(janela, width=250, height=30, bg=cor1)
+janela_frame.grid(row=0,column=0)
 janela.mainloop()
